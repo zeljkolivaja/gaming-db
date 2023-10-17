@@ -19,6 +19,7 @@ export interface Game {
   //   due to api design, parent platforms is array of objects, where
   //   each object has platform property of type Platform
   parent_platforms: { platform: Platform }[];
+  metacritic: number;
 }
 
 function useGames() {
